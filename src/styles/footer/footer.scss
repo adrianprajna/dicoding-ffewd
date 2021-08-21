@@ -1,0 +1,44 @@
+footer {
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+    img {
+        width: 10rem;
+        border-radius: 50%;
+        height: 10rem;
+        object-fit: cover;
+    }
+
+    h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    hr {
+        width: 5rem;
+        margin: auto;
+        border: 1px solid black;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+
+        hr {
+            margin: 0 0 0.5rem 0;
+        }
+
+        .profile-img {
+            margin-left: 10rem;
+        }
+
+        .profile-desc {
+            margin-left: 2rem;
+        }
+    }
+}

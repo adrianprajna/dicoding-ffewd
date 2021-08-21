@@ -1,0 +1,40 @@
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 15rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+
+    img {
+        width: 100%;
+    }
+}
+
+.popular-pokemon-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.pokemon-render-section {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .popular-pokemon-list {
+        display: flex;
+        flex-direction: row;
+        width: 75%;
+        margin: auto;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+    }
+}
